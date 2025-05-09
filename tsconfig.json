@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                  // Set the ECMAScript target version
+    "module": "commonjs",                // Set the module system to CommonJS
+    "outDir": "./dist",                  // Set the output directory for compiled files
+    "rootDir": "./src",                  // Specify the root directory of input files
+    "strict": true,                       // Enable all strict type-checking options
+    "esModuleInterop": true               // Enables emit interoperability between CommonJS and ES Modules
+  },
+  "include": ["src/**/*"],                // Specify the files to include
+  "exclude": ["node_modules", "**/*.spec.ts"] // Specify the files to exclude
+}
